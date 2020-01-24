@@ -12,7 +12,7 @@ Notify in a slack channel when someone enter in the office
     <li>Install the App in your workspace, then copy the "Bot User OAuth Token"</li>
 </ul>
 
-<h3>Deeplens<h3>
+<h3>Deeplens</h3>
 <ul>
     <li>Create a S3 Bucket;</li>
     <li>Create a new project in the Deeplens page using the template "Face dectection";</li>
@@ -21,13 +21,14 @@ Notify in a slack channel when someone enter in the office
     <li>Update the function to the latest version. Set the timeout with 600 seconds and click save.</li>
 </ul>
 
-<h3>Lambda Function<h3>
+<h3>Lambda Function</h3>
 <ul>
     <li>Create a new role for AWS Lambda Function with the policies AmazonRekognitionFullAccess, AmazonDynamoDBFullAccess, AmazonS3FullAccess and AWSLambdaExecute in IAM console;</li>
     <li>Download the file recognition.zip;</li>
     <li>Create a new function with Python 3.6;</li>
     <li>Select the option "Upload a .zip file" and chose the file recognition;</li>
-    <li>Change the values of the variables bucket, slack_token, slack_channel</li>
+    <li>Change the values of the variables bucket, slack_token and slack_channel;</li>
+    <li>Save the function.</li>
 </ul>
 <ul>
 
@@ -35,7 +36,7 @@ Notify in a slack channel when someone enter in the office
 
 
 <h2>Architecture</h2>
-![Architecture](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/602/534/datas/gallery.jpg)
+[Architecture](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/602/534/datas/gallery.jpg)
 
 <h2>Refences</h3>
 
