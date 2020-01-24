@@ -37,7 +37,7 @@ Notify in a slack channel when someone enter in the office
 
 <h2>Architecture</h2>
 
-[Architecture](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/602/534/datas/gallery.jpg)
+![Architecture](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/602/534/datas/gallery.jpg)
 
 <h2>Refences</h3>
 
